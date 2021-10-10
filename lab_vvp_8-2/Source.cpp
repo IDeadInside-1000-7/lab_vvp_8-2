@@ -11,11 +11,9 @@ int main()
 	if (A < B)
 		printf("Please, enter (A > B)!");
 	else
+	{
 		rez = A / B;
-	printf("Result is: ");
+		printf("Result is: ");
 		printf("%i", rez);
-
-
-	
-	
+	}
 }
